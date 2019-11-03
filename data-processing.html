@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bodyfit</title>
+	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container flex-container">
+			<div class="logo">
+				<img src="img/logo.svg" alt="logo">
+			</div>
+			<div class="navicon">
+				<svg xmlns="http://www.w3.org/2000/svg" width="27" height="18" fill="none" viewBox="0 0 27 18">
+				  	<path stroke="#000" stroke-linecap="round" stroke-width="2" d="M1.423 1h24M1.423 9h24M1.423 17h24"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="content data-processing">
+		<div class="container">
+			<h1 class="semibold">Data processing</h1>
+			<h2 class="semibold">Your meal plan is being calculated</h2>
+			<div class="circle">
+				<svg id="circle" xmlns="http://www.w3.org/2000/svg" width="194" height="194" fill="none" viewBox="0 0 194 194">
+					<defs>
+						<linearGradient id="gradient" x1="0" y1="98.7018" x2="194" y2="98.7018" gradientUnits="userSpaceOnUse">
+							<stop offset="0" stop-color="#01EDB5"/>
+							<stop offset="1" stop-color="#15E8C8"/>
+						</linearGradient>
+					</defs>
+					<path stroke="url(#gradient)" stroke-width="10" stroke-linecap="round" d="M 97 5 A1 1 0 0 1 97 189 A1 1 0 0 1 97 5"/>
+				</svg>
+				<div class="circle-percent"><span>0</span>%</div>
+			</div>
+			<div class="circle-text">
+				<span>Analyzing the data</span>
+				<span>Measuring body profile</span>
+				<span>Estimating portions</span>
+				<span>Suggesting water amount consumption</span>
+				<span>Recipes planning</span>
+				<span>You personal meal plan is ready!</span>
+			</h3>
+		</div>
+	</div>
+	<div class="sidebar">
+		<div class="close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+			  	<path fill="#000" d="M1.707.293A1 1 0 00.293 1.707L1.707.293zm14.586 17.414a1 1 0 001.414-1.414l-1.414 1.414zm-16-16l16 16 1.414-1.414-16-16L.293 1.707z"/>
+			  	<path fill="#000" d="M17.707 1.707A1 1 0 0016.293.293l1.414 1.414zM.293 16.293a1 1 0 101.414 1.414L.293 16.293zm16-16l-16 16 1.414 1.414 16-16L16.293.293z"/>
+			</svg>
+		</div>
+		<div class="sidebar-content">
+			<ul class="menu">
+				<li>
+					<a href="#">My meal plan</a>
+				</li>
+				<li>
+					<a href="#">FAQ</a>
+				</li>
+				<li>
+					<a href="#">Contacts</a>
+				</li>
+				<li>
+					<a href="#">Refund policy</a>
+				</li>
+				<li>
+					<a href="#">Privacy policy</a>
+				</li>
+				<li>
+					<a href="#">Terms of service</a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">&copy;Bodyfit, 2019</div>
+	</div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
